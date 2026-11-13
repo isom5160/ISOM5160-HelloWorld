@@ -1,4 +1,3 @@
-# Version 1
 # ISOM5160 Practice - Security Alert Triage Streamlit app
 # Model answer. A simple top-to-bottom script (no functions).
 # The NLP model is a public Hugging Face text-classification
