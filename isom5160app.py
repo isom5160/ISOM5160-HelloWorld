@@ -34,6 +34,7 @@ if st.button("Classify alert"):
             "text-classification",
             model="ealvaradob/bert-finetuned-phishing",
             token=hf_token,
+            device="cpu",
         )
         result = classifier(alert_text)[0]
         raw_label = result["label"]
