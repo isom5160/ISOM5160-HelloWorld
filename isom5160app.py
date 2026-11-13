@@ -6,7 +6,7 @@
 import streamlit as st
 from transformers import pipeline
 
-st.title("ISOM5160-newwwww")
+st.title("ISOM5160-newwwww2")
 st.write("Security Alert Triage")
 st.write(
     "Paste a short email or security alert. "
