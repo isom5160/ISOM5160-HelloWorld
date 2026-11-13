@@ -1,5 +1,5 @@
-# ISOM5160 Practice - Security Alert Triage Streamlit app
-# Install: pip install --prefer-binary -r requirements.txt
 streamlit
-transformers>=4.33,<5.0
+transformers
 torch
+accelerate
+huggingface-hub
