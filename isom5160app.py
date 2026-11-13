@@ -4,7 +4,7 @@
 # model trained to flag phishing-like email text.
 import streamlit as st
 from transformers import pipeline
-st.title("ISOM5160-new2")
+st.title("ISOM5160-newwwww")
 st.write("Security Alert Triage")
 st.write(
     "Paste a short email or security alert. "
