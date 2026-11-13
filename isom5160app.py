@@ -4,7 +4,7 @@
 # model trained to flag phishing-like email text.
 import streamlit as st
 from transformers import pipeline
-st.title("ISOM5160-new")
+st.title("ISOM5160-new2")
 st.write("Security Alert Triage")
 st.write(
     "Paste a short email or security alert. "
@@ -30,6 +30,7 @@ if st.button("Classify alert"):
             model="ealvaradob/bert-finetuned-phishing",
             token=hf_token,
             device="cpu",
+            model_kwargs={"low_cpu_mem_usage": False},
         )
         result = classifier(alert_text)[0]
         raw_label = result["label"]
